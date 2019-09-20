@@ -1,1 +1,2 @@
-# java-projects
+# Java projects and challenges
+
