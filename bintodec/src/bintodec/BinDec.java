@@ -9,7 +9,7 @@ public class BinDec {
 		String answer = null;
 		do
 		{
-			System.out.print("1.Convert Decimal to Binary\n2.Convert Binary to Decimal\n");
+			System.out.print("1.Convert Decimal to Binary\n2.Convert Binary to Decimal");
 			int choice = in.nextInt();
 			if(choice == 1)
 			{
