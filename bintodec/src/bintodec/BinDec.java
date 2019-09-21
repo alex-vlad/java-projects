@@ -33,11 +33,11 @@ public class BinDec {
 		in.close();
 	}
 
-	private static double binToDec(String num) {
-		double dec = 0;
+	private static long binToDec(String num) {
+		long dec = 0;
 		for(int i=num.length()-1;i>=0;i--)
 		{
-			double power = (double) Math.pow(2.0, num.length()-i-1);
+			long power = (long) Math.pow(2.0, num.length()-i-1);
 			dec+=(power*(num.charAt(i)-'0'));
 		}
 		return dec;
